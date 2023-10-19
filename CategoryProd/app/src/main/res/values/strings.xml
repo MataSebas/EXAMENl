@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EXAMEN1</string>
+    <string name="GD">Información general</string>
+    <string name="Cod">Código</string>
+    <string name="Descrip">Descripción</string>
+    <string name="Category">Categoria</string>
+    <string name="Min">Minimo</string>
+    <string name="Max">Maximo</string>
+    <string name="Descont">Descontinuado</string>
+    <string name="Accept">Aceptar</string>
+    <string name="Inf_proc">Información Procesada Correctamente</string>
+    <string name="txt_CodR">Ingrese un Código</string>
+    <string name="txt_DescrpR">Descripción Requerida</string>
+    <string name="txt_CatR">Categoria Requerida</string>
+    <string name="txt_MinR">Valor Mínimo Requerido</string>
+    <string name="txt_MaxR">Valor Máximo Requerido</string>
+    <string name="txtSi">Si</string>
+    <string name="txt_No">No</string>
+</resources>

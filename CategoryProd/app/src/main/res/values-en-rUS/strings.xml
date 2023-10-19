@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TEST1</string>
+    <string name="GD">General Information</string>
+    <string name="Cod">Code</string>
+    <string name="Descrip">Description</string>
+    <string name="Category">Category</string>
+    <string name="Min">Minimum</string>
+    <string name="Max">Maximum</string>
+    <string name="Descont">Discontinued</string>
+    <string name="Accept">Accept</string>
+    <string name="Inf_proc">Information Succesfully Processed</string>
+    <string name="txt_CodR">Enter a Code</string>
+    <string name="txt_DescrpR">Description Required</string>
+    <string name="txt_CatR">Category Required</string>
+    <string name="txt_MinR">Minimum Value Required</string>
+    <string name="txt_MaxR">Maximum Value Required</string>
+    <string name="txtSi">Yes</string>
+    <string name="txt_No">No</string>
+</resources>

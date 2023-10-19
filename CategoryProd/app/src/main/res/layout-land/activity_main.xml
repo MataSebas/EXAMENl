@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        style="@style/ShapeAppearance.Material3.Corner.Large"
+        android:layout_width="684dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442">
+
+        <TableRow android:background="@color/Blue">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/GD"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="198dp"
+            android:background="@color/Lgh_grey">
+
+            <TextView
+                android:id="@+id/Codigo"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:text="@string/Cod"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/codInst"
+                android:layout_width="110dp"
+                android:layout_height="37dp"
+                android:ems="10"
+                android:hint="@string/Cod"
+                android:inputType="text" />
+            <TextView
+                android:id="@+id/Descripcion"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:text="@string/Descrip"
+                android:textAlignment="center" />
+            <EditText
+                android:id="@+id/descrpinsert"
+                android:layout_width="110dp"
+                android:layout_height="37dp"
+                android:ems="10"
+                android:hint="@string/Descrip"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="198dp"
+            android:background="@color/Lgh_grey">
+
+            <TextView
+                android:id="@+id/txtCod"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:text="@string/Category"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/categoInser"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:ems="10"
+                android:hint="@string/Category"
+                android:inputType="text" />
+            <TextView
+                android:id="@+id/Min"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:text="@string/Min"
+                android:textAlignment="center" />
+            <EditText
+                android:id="@+id/minInsert"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:ems="10"
+                android:hint="@string/Min"
+                android:inputType="number" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="198dp"
+
+            android:layout_height="130dp"
+            android:background="@color/Lgh_grey">
+
+            <TextView
+                android:id="@+id/Categoria"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:text="@string/Descont"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/jhkghh"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:ems="10"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/Max"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:text="@string/Max"
+                android:textAlignment="center" />
+            <EditText
+                android:id="@+id/maxInsert"
+                android:layout_width="96dp"
+                android:layout_height="37dp"
+                android:ems="10"
+                android:hint="@string/Max"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="18dp"
+            android:layout_height="57dp"
+            android:background="@color/Lgh_grey">
+
+            <TextView
+                android:id="@+id/nll"
+                android:layout_width="101dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/nll1"
+                android:layout_width="105dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/nll2"
+                android:layout_width="141dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/Accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Accept"
+                android:onClick="ejecutar"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

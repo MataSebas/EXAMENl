@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">考試1</string>
+    <string name="GD">主要訊息</string>
+    <string name="Cod">" 程式碼"</string>
+    <string name="Descrip">描述</string>
+    <string name="Category">類別</string>
+    <string name="Min">" 最低限度"</string>
+    <string name="Max">最大限度</string>
+    <string name="Descont">" 停產"</string>
+    <string name="Accept">" 接受"</string>
+    <string name="Inf_proc">" 資訊處理正確"</string>
+    <string name="txt_CodR">" 輸入代碼"</string>
+    <string name="txt_DescrpR">" 必填描述"</string>
+    <string name="txt_CatR">所需類別</string>
+    <string name="txt_MinR">最低要求值</string>
+    <string name="txt_MaxR">最大要求值</string>
+    <string name="txtSi">" 是的"</string>
+    <string name="txt_No">不</string>
+</resources>
